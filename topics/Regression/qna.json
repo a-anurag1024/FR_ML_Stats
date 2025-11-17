@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the main objective of Linear Regression?",
+        "answer_key": "Model linear relationship between dependent and independent variables",
+        "category": "Regression"
+    },
+    {
+        "question": "What are the key assumptions of Linear Regression?",
+        "answer_key": "Linearity, homoscedasticity, exogeneity, no multicollinearity, normality of errors",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Homoscedasticity?",
+        "answer_key": "Constant variance of residuals across all levels of independent variables",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Exogeneity in Linear Regression?",
+        "answer_key": "Independent variables are uncorrelated with the error term",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Multicollinearity?",
+        "answer_key": "High correlation among independent variables",
+        "category": "Regression"
+    },
+    {
+        "question": "How is multicollinearity detected?",
+        "answer_key": "Using Variance Inflation Factor (VIF)",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Residual Sum of Squares (RSS)?",
+        "answer_key": "Sum of squared differences between actual and predicted values",
+        "category": "Regression"
+    },
+    {
+        "question": "What does R-squared represent?",
+        "answer_key": "Proportion of variance in dependent variable explained by the model",
+        "category": "Regression"
+    },
+    {
+        "question": "Why do we use Adjusted R-squared?",
+        "answer_key": "To penalize addition of irrelevant features and account for model complexity",
+        "category": "Regression"
+    },
+    {
+        "question": "What is the Dummy Variable Trap?",
+        "answer_key": "Perfect multicollinearity caused by including all dummy variables",
+        "category": "Regression"
+    },
+    {
+        "question": "How to avoid the Dummy Variable Trap?",
+        "answer_key": "Drop one dummy variable from each categorical feature",
+        "category": "Regression"
+    },
+    {
+        "question": "What are common methods of feature selection in linear regression?",
+        "answer_key": "Stepwise, forward, backward selection, AIC/BIC, or regularization",
+        "category": "Regression"
+    },
+    {
+        "question": "What does Variance Inflation Factor (VIF) measure?",
+        "answer_key": "Measures how much variance of a coefficient is inflated by multicollinearity",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Regularization in regression models?",
+        "answer_key": "Technique to reduce overfitting by penalizing large coefficients",
+        "category": "Regression"
+    },
+    {
+        "question": "What is L1 Regularization (Lasso)?",
+        "answer_key": "Penalizes absolute value of coefficients, can shrink some to zero",
+        "category": "Regression"
+    },
+    {
+        "question": "What is L2 Regularization (Ridge)?",
+        "answer_key": "Penalizes squared magnitude of coefficients, shrinks but doesn’t eliminate",
+        "category": "Regression"
+    },
+    {
+        "question": "What is ElasticNet Regularization?",
+        "answer_key": "Combines L1 and L2 regularization penalties",
+        "category": "Regression"
+    },
+    {
+        "question": "Why is Standardization important before Regularization?",
+        "answer_key": "Ensures all features contribute equally to penalty term",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Cross-Validation used for?",
+        "answer_key": "Assess model performance and generalization on unseen data",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Logistic Regression used for?",
+        "answer_key": "Binary or categorical classification problems",
+        "category": "Regression"
+    },
+    {
+        "question": "What function does Logistic Regression model?",
+        "answer_key": "Sigmoid (logistic) function mapping values to probability range [0,1]",
+        "category": "Regression"
+    },
+    {
+        "question": "What is the cost function in Logistic Regression?",
+        "answer_key": "Binary cross-entropy or log-loss function",
+        "category": "Regression"
+    },
+    {
+        "question": "How is Logistic Regression optimized?",
+        "answer_key": "Using Gradient Descent or similar optimization algorithms",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Gradient Descent?",
+        "answer_key": "Iterative optimization to minimize cost by updating weights opposite gradient",
+        "category": "Regression"
+    },
+    {
+        "question": "What does a Confusion Matrix represent?",
+        "answer_key": "Performance summary showing TP, TN, FP, FN counts",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Accuracy?",
+        "answer_key": "Proportion of correctly predicted instances out of total predictions",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Precision?",
+        "answer_key": "TP divided by total predicted positives (TP + FP)",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Recall (Sensitivity or True Positive Rate)?",
+        "answer_key": "TP divided by total actual positives (TP + FN)",
+        "category": "Regression"
+    },
+    {
+        "question": "What is Specificity?",
+        "answer_key": "TN divided by total actual negatives (TN + FP)",
+        "category": "Regression"
+    },
+    {
+        "question": "What is the F1 Score?",
+        "answer_key": "Harmonic mean of Precision and Recall",
+        "category": "Regression"
+    },
+    {
+        "question": "What is the ROC Curve?",
+        "answer_key": "Plot of True Positive Rate vs False Positive Rate at different thresholds",
+        "category": "Regression"
+    },
+    {
+        "question": "What is AUC (Area Under ROC Curve)?",
+        "answer_key": "Measures classifier’s ability to distinguish between classes",
+        "category": "Regression"
+    },
+    {
+        "question": "What does a high AUC indicate?",
+        "answer_key": "Better model performance and class separation",
+        "category": "Regression"
+    },
+    {
+        "question": "Why is R-squared not used for Logistic Regression?",
+        "answer_key": "Because it’s based on variance, not suitable for categorical outcomes",
+        "category": "Regression"
+    },
+    {
+        "question": "What is the difference between Ridge and Lasso?",
+        "answer_key": "Ridge shrinks coefficients, Lasso can zero out coefficients",
+        "category": "Regression"
+    },
+    {
+        "question": "Why is Adjusted R-squared better than R-squared?",
+        "answer_key": "Adjusts for number of predictors, avoiding artificial inflation",
+        "category": "Regression"
+    },
+    {
+        "question": "When is Cross-validation preferred over train-test split?",
+        "answer_key": "When data is limited and we need reliable performance estimation",
+        "category": "Regression"
+    },
+    {
+        "question": "What is the interpretation of logistic regression coefficients?",
+        "answer_key": "Change in log-odds for one unit change in predictor",
+        "category": "Regression"
+    },
+    {
+        "question": "What is the main limitation of Linear Regression?",
+        "answer_key": "Assumes linearity and homoscedasticity, sensitive to outliers",
+        "category": "Regression"
+    },
+    {
+        "question": "What causes Multicollinearity?",
+        "answer_key": "Highly correlated independent variables inflating variance",
+        "category": "Regression"
+    }
+]

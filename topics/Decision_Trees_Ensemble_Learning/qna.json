@@ -1,0 +1,207 @@
+[
+    {
+        "question": "What does the Gini Index measure in decision trees?",
+        "answer_key": "Measures impurity or probability of incorrect classification",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "How is the Gini Index calculated?",
+        "answer_key": "1 - Σ(p_i²) for all classes in a node",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Entropy in decision tree learning?",
+        "answer_key": "Measure of uncertainty or impurity in data",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Information Gain?",
+        "answer_key": "Reduction in entropy after splitting on an attribute",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is the mathematical formula for Information Gain?",
+        "answer_key": "IG = Entropy(parent) - Σ(weighted child entropy)",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is the CART algorithm used for?",
+        "answer_key": "Building binary classification and regression trees",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What splitting criteria does CART use for classification?",
+        "answer_key": "Gini Index",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What splitting criteria does CART use for regression?",
+        "answer_key": "Mean Squared Error (MSE)",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is tree pruning in decision trees?",
+        "answer_key": "Process of reducing model complexity by removing unimportant branches",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is pre-pruning in decision trees?",
+        "answer_key": "Stops tree growth early based on predefined criteria",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What are common pre-pruning techniques?",
+        "answer_key": "Max depth, min samples split, minimum error threshold",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is post-pruning?",
+        "answer_key": "Grow full tree, then remove branches that don’t improve performance",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is early stopping in tree models?",
+        "answer_key": "Halting training when validation performance stops improving",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Ensemble Learning?",
+        "answer_key": "Combining multiple models to improve overall performance",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Bagging?",
+        "answer_key": "Training multiple models on bootstrap samples and aggregating results",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Bootstrap Aggregation (Bagging)?",
+        "answer_key": "Random sampling with replacement to create diverse training subsets",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "How does Bagging improve model performance?",
+        "answer_key": "Reduces variance and prevents overfitting",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Boosting?",
+        "answer_key": "Sequentially trains models to correct errors made by previous ones",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "How does Boosting differ from Bagging?",
+        "answer_key": "Boosting reduces bias; Bagging reduces variance",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Stacking in Ensemble Learning?",
+        "answer_key": "Combining diverse base models using a meta-learner",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is the base learner in Stacking called?",
+        "answer_key": "Meta-model or meta-learner",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is a Random Forest?",
+        "answer_key": "Ensemble of decision trees trained on random feature subsets",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "How does Random Forest handle overfitting?",
+        "answer_key": "Uses bagging and random feature selection",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is the key hyperparameter in Random Forests?",
+        "answer_key": "Number of trees (n_estimators)",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Adaptive Boosting (AdaBoost)?",
+        "answer_key": "Sequential boosting method that adjusts sample weights after each iteration",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "How does AdaBoost handle misclassified samples?",
+        "answer_key": "Increases their weights for the next model",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What base learners are used in AdaBoost?",
+        "answer_key": "Usually weak decision stumps (single-split trees)",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Gradient Boosting?",
+        "answer_key": "Builds models sequentially by minimizing the loss using gradient descent",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "How does Gradient Boosting differ from AdaBoost?",
+        "answer_key": "Uses gradient of loss function instead of adjusting sample weights",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What are key parameters in Gradient Boosting?",
+        "answer_key": "Learning rate, number of estimators, max depth",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is XGBoost?",
+        "answer_key": "Optimized gradient boosting framework with regularization and parallelization",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "Why is XGBoost faster than traditional Gradient Boosting?",
+        "answer_key": "Employs parallel tree building and efficient data structures",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What regularization techniques are used in XGBoost?",
+        "answer_key": "L1 (Lasso) and L2 (Ridge) regularization",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is the main advantage of XGBoost?",
+        "answer_key": "High speed, scalability, and prevention of overfitting",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is shrinkage in Gradient Boosting?",
+        "answer_key": "Learning rate to scale contribution of each new tree",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "How does Random Forest differ from Gradient Boosting?",
+        "answer_key": "Random Forest averages independent trees; Boosting adds sequential dependent trees",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is Out-of-Bag (OOB) error in Random Forests?",
+        "answer_key": "Validation error estimated using unused bootstrap samples",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What is feature importance in Random Forest?",
+        "answer_key": "Measures how much each feature reduces impurity across all trees",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "Why does Ensemble Learning work better than individual models?",
+        "answer_key": "Reduces variance and bias by combining diverse learners",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What problem can Boosting suffer from if not tuned?",
+        "answer_key": "Overfitting with too many estimators or high learning rate",
+        "category": "Decision Trees Ensemble Learning"
+    },
+    {
+        "question": "What metric is used for pruning in decision trees?",
+        "answer_key": "Cost-complexity parameter (α)",
+        "category": "Decision Trees Ensemble Learning"
+    }
+]

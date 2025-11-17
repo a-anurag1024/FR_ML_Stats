@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is K-Nearest Neighbors (K-NN)?",
+        "answer_key": "A non-parametric algorithm that classifies points based on majority class of K nearest neighbors",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the main idea behind K-NN?",
+        "answer_key": "Similar points are likely to have similar labels",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What are common distance measures used in K-NN?",
+        "answer_key": "Euclidean, Manhattan, Minkowski, Hamming",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Euclidean Distance used for?",
+        "answer_key": "Continuous numeric features",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "When is Manhattan Distance preferred?",
+        "answer_key": "For grid-like or high-dimensional data",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What does Minkowski Distance generalize?",
+        "answer_key": "It generalizes Euclidean (p=2) and Manhattan (p=1) distances",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Hamming Distance used for?",
+        "answer_key": "Categorical or binary feature comparison",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "How can KNN be optimized for high dimensions?",
+        "answer_key": "Using KD-Trees, Ball Trees, or hypersphere/box-based partitioning",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the main limitation of K-NN?",
+        "answer_key": "Computationally expensive on large datasets",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Support Vector Machine (SVM)?",
+        "answer_key": "A supervised algorithm that finds the hyperplane maximizing class separation margin",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What are Support Vectors?",
+        "answer_key": "Data points closest to the decision boundary that define the hyperplane",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the Kernel Trick in SVM?",
+        "answer_key": "Maps non-linear data into higher-dimensional space for linear separation",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "Name some common SVM kernels.",
+        "answer_key": "Linear, Polynomial, RBF, Sigmoid",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Semi-Supervised Learning?",
+        "answer_key": "Learning from both labeled and unlabeled data",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "When is Semi-Supervised Learning useful?",
+        "answer_key": "When labeling data is expensive or limited",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is K-Means Clustering?",
+        "answer_key": "An unsupervised algorithm that partitions data into K clusters based on distance to centroids",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What does the K-Means objective function minimize?",
+        "answer_key": "Within-cluster sum of squares (WCSS)",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the Elbow Method used for?",
+        "answer_key": "Determining optimal K by finding point where WCSS reduction slows",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is WCSS in clustering?",
+        "answer_key": "Sum of squared distances between points and their cluster centroid",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is K-Means++ initialization?",
+        "answer_key": "Improved centroid initialization to avoid poor starting points",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What are the main problems with K-Means?",
+        "answer_key": "Sensitive to initialization, assumes spherical clusters, needs K predefined",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Mini-Batch K-Means?",
+        "answer_key": "A faster variant using random mini-batches to update centroids",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Agglomerative Clustering?",
+        "answer_key": "Bottom-up approach starting with individual points and merging clusters",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Divisive Clustering?",
+        "answer_key": "Top-down approach starting with one cluster and splitting recursively",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Hierarchical Clustering?",
+        "answer_key": "Creates a tree-like structure (dendrogram) of nested clusters",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What are linkage criteria in hierarchical clustering?",
+        "answer_key": "Methods to define inter-cluster distance",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Single Linkage?",
+        "answer_key": "Uses minimum distance between cluster points (can cause chaining)",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Complete Linkage?",
+        "answer_key": "Uses maximum distance between cluster points (compact clusters)",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Average Linkage?",
+        "answer_key": "Uses average distance between all pairs of cluster points",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Centroid Linkage?",
+        "answer_key": "Uses distance between cluster centroids",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is DBSCAN?",
+        "answer_key": "Density-based clustering algorithm identifying clusters by dense regions",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What are DBSCAN parameters?",
+        "answer_key": "Epsilon (ε) and MinPts (minimum points per neighborhood)",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is a Core Point in DBSCAN?",
+        "answer_key": "Point with at least MinPts neighbors within ε radius",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is a Border Point in DBSCAN?",
+        "answer_key": "Has fewer than MinPts neighbors but lies within a core point’s ε radius",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is a Noise Point in DBSCAN?",
+        "answer_key": "Point that is neither core nor border",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What are the advantages of DBSCAN?",
+        "answer_key": "Handles noise and arbitrary shaped clusters, no need for predefined K",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What are limitations of DBSCAN?",
+        "answer_key": "Struggles with clusters of varying densities",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the Silhouette Score?",
+        "answer_key": "Measures how well a point fits in its cluster vs. others (-1 to 1)",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the Gold Standard in clustering?",
+        "answer_key": "True labeled data used to evaluate clustering performance",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the RAND Index?",
+        "answer_key": "Measures similarity between predicted clusters and true labels",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the Jaccard Index?",
+        "answer_key": "Ratio of correctly clustered pairs to total pairs in at least one cluster",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Purity in clustering?",
+        "answer_key": "Measures dominant class proportion within each cluster",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is Principal Component Analysis (PCA)?",
+        "answer_key": "Dimensionality reduction technique maximizing variance directions",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What are Principal Components?",
+        "answer_key": "Orthogonal directions capturing maximum data variance",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the first Principal Component?",
+        "answer_key": "The direction of maximum variance in the dataset",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What is the goal of PCA?",
+        "answer_key": "Reduce dimensions while retaining most of the variance",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "How is PCA performed?",
+        "answer_key": "Compute covariance matrix, then eigenvalues and eigenvectors",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What does explained variance in PCA mean?",
+        "answer_key": "Proportion of total variance captured by each principal component",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "What are the limitations of PCA?",
+        "answer_key": "Loses interpretability and assumes linear relationships",
+        "category": "Clustering And Other Techniques"
+    },
+    {
+        "question": "When is PCA most useful?",
+        "answer_key": "For visualization, noise reduction, or preprocessing before ML models",
+        "category": "Clustering And Other Techniques"
+    }
+]
