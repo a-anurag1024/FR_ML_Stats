@@ -1,0 +1,327 @@
+[
+    {
+        "question": "What characterizes a normal distribution?",
+        "answer_key": "Symmetric, bell-shaped distribution defined by mean and variance.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is the 68-95-99.7 rule for normal distributions?",
+        "answer_key": "Empirical rule for data within 1, 2, and 3 standard deviations.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What does a Q-Q plot check for?",
+        "answer_key": "Visual assessment of whether data follows a theoretical distribution.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "How do you use a Q-Q plot to assess normality?",
+        "answer_key": "Data points align approximately on a straight line.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is the Black Swan theory?",
+        "answer_key": "Rare, high-impact, unpredictable events associated with heavy tails.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is the Student's t distribution used for?",
+        "answer_key": "Inference on means when population variance is unknown.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "Why does the t distribution have heavier tails than normal?",
+        "answer_key": "Accounts for uncertainty from estimating population variance.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is population variance?",
+        "answer_key": "Variance computed using entire population values.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is sample variance?",
+        "answer_key": "Variance estimated from a sample using n-1 denominator.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What does degrees of freedom mean in variance estimation?",
+        "answer_key": "Number of independent pieces of information; n-1 for variance.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What happens to t distribution as degrees of freedom increase?",
+        "answer_key": "Converges to the normal distribution.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is the Cauchy distribution known for?",
+        "answer_key": "Heavy tails with undefined mean and variance.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "How is the Cauchy distribution related to t distribution?",
+        "answer_key": "t distribution with df = 1 is the Cauchy distribution.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "How is Student’s t used to form confidence intervals?",
+        "answer_key": "Uses t-critical values when variance is estimated from sample.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What defines a binomial distribution?",
+        "answer_key": "Counts successes in n independent Bernoulli trials.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is the mean of a binomial distribution?",
+        "answer_key": "np (number of trials times success probability).",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is the variance of a binomial distribution?",
+        "answer_key": "np(1 - p) (binomial variance).",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "When can binomial distribution be approximated by normal?",
+        "answer_key": "When np and n(1-p) are sufficiently large.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "How is a chi-square distribution formed?",
+        "answer_key": "Sum of squared standard normal variables.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is Pearson’s chi-square statistic?",
+        "answer_key": "Sum of (observed - expected)^2 / expected.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is chi-square used for in goodness-of-fit tests?",
+        "answer_key": "Testing whether data follows an assumed distribution.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "How is chi-square used in independence testing?",
+        "answer_key": "Evaluates dependence between categorical variables in a contingency table.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "How is the F distribution derived?",
+        "answer_key": "Ratio of two scaled chi-square variables.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What does the F statistic measure in regression?",
+        "answer_key": "Ratio of explained to unexplained variance.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is residual variability?",
+        "answer_key": "Variation in data unexplained by the model.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "When is the F distribution used?",
+        "answer_key": "Testing model significance or comparing variances (ANOVA).",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is a Poisson distribution used for?",
+        "answer_key": "Modeling count of rare events in a fixed interval.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What are the mean and variance of a Poisson distribution?",
+        "answer_key": "Both equal to λ (the rate parameter).",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What does the exponential distribution model?",
+        "answer_key": "Time between two consecutive Poisson events.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is a key property of exponential distribution?",
+        "answer_key": "Memorylessness.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is the use case of the exponential distribution?",
+        "answer_key": "Modeling waiting time or failure time with constant hazard.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is the Weibull distribution used for?",
+        "answer_key": "Modeling lifetimes with varying hazard rates.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "How does the Weibull shape parameter affect hazard rate?",
+        "answer_key": "k>1 increasing, k=1 constant, k<1 decreasing.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is characteristic life in Weibull distribution?",
+        "answer_key": "The scale parameter λ where about 63.2% failures occur.",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "How do you compute probability of failure at time t in Weibull?",
+        "answer_key": "Using F(t) = 1 - exp(-(t/λ)^k).",
+        "category": "Common Distributions"
+    },
+    {
+        "question": "What is the fundamental assumption behind classical (frequentist) statistics?",
+        "answer_key": "Assumes population follows a known underlying distribution.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "How does modern statistics differ from classical statistics?",
+        "answer_key": "Uses resampling (bootstrap) instead of assuming population distribution.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is the bootstrap method used for?",
+        "answer_key": "Empirically estimating sampling distribution via resampling with replacement.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "Why does bootstrap not require distributional assumptions?",
+        "answer_key": "Treats the sample as a proxy for the population.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is the key limitation of bootstrap methods?",
+        "answer_key": "Requires sample to be representative of the population.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "Why is sampling quality more important than sampling quantity?",
+        "answer_key": "Poor sampling introduces bias that large sample size can't fix.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is random sampling?",
+        "answer_key": "Sampling where all population units have equal probability of selection.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is stratified sampling?",
+        "answer_key": "Sampling by dividing population into homogeneous groups and sampling within each.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is sampling bias?",
+        "answer_key": "Systematic exclusion or overrepresentation of parts of the population.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is selection bias?",
+        "answer_key": "Bias due to improper criteria for including subjects in the sample.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is data snooping?",
+        "answer_key": "Repeatedly using the same data to test multiple hypotheses.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is the vast search effect?",
+        "answer_key": "Significant results appear by chance when searching through many hypotheses.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is regression to the mean?",
+        "answer_key": "Extreme values tend to be followed by more typical values.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "Why does regression to the mean occur?",
+        "answer_key": "Due to natural variability in repeated measurements.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What does the Central Limit Theorem state?",
+        "answer_key": "Sampling mean approaches normal distribution as sample size grows.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What are the key assumptions of CLT?",
+        "answer_key": "IID samples with finite mean and variance.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "When can CLT fail?",
+        "answer_key": "For dependent data or heavy-tailed distributions with infinite variance.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is standard error?",
+        "answer_key": "Standard deviation of the sampling distribution of an estimator.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "How does increasing sample size affect standard error?",
+        "answer_key": "SE decreases with 1/√n.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is the primary goal of bootstrapping?",
+        "answer_key": "Estimate variability, bias, and confidence intervals of estimators.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is a bootstrap sample?",
+        "answer_key": "A sample of size n drawn with replacement from original data.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "How is bootstrap standard error computed?",
+        "answer_key": "Standard deviation of the bootstrap statistics.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is a bootstrap confidence interval?",
+        "answer_key": "CI estimated using empirical distribution of bootstrap estimates.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is the percentile bootstrap method?",
+        "answer_key": "Uses percentiles of bootstrap distribution as CI bounds.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What assumption underlies bootstrap validity?",
+        "answer_key": "Sample approximates population well.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "Why is bootstrap preferred for medians or quantiles?",
+        "answer_key": "Analytical formulas for SE of medians are difficult.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "Why are bootstrap methods useful for small samples?",
+        "answer_key": "Avoid reliance on asymptotic normality assumptions.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What is the difference between population parameter and sample statistic?",
+        "answer_key": "Parameter describes entire population; statistic summarizes sample.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "What role does sample representativeness play in inference?",
+        "answer_key": "Inference is valid only if the sample represents the population.",
+        "category": "Statistics Intro"
+    },
+    {
+        "question": "Why is independent sampling important for CLT?",
+        "answer_key": "Ensures sample mean behaves predictably without correlation.",
+        "category": "Statistics Intro"
+    }
+]
