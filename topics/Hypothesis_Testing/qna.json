@@ -1,0 +1,327 @@
+[
+    {
+        "question": "What is a null hypothesis (H0) in hypothesis testing?",
+        "answer_key": "Default assumption of no effect or no difference.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is an alternative hypothesis (H1/Ha)?",
+        "answer_key": "Claim suggesting an effect or difference exists.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is a one-tailed (one-sided) hypothesis test?",
+        "answer_key": "Test that checks effect in only one direction.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is a two-tailed (two-sided) hypothesis test?",
+        "answer_key": "Test that checks for any difference in either direction.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "Give a common use case of hypothesis testing in product analytics.",
+        "answer_key": "A/B testing to compare versions of a feature.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "Why do we use a control group in experiments?",
+        "answer_key": "To establish a baseline for comparison with treatment.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is a resampling approach to hypothesis testing?",
+        "answer_key": "Methods that rely on repeated sampling from observed data.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is a permutation test?",
+        "answer_key": "Test that evaluates significance by shuffling labels and recomputing statistics.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is an exact permutation test?",
+        "answer_key": "Permutation test that enumerates all possible label shuffles.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is a bootstrap resampling test?",
+        "answer_key": "Test using sampling with replacement to approximate sampling distribution.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is the correct interpretation of a p-value?",
+        "answer_key": "Probability of observing data or more extreme under H0.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is a common weakness of p-values?",
+        "answer_key": "They do not indicate effect size or practical significance.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is p-hacking?",
+        "answer_key": "Manipulating analyses until a significant p-value appears.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is effect size?",
+        "answer_key": "Quantifies the magnitude of a relationship or difference.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is the alpha (α) value in hypothesis testing?",
+        "answer_key": "Threshold probability for rejecting the null hypothesis.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is a Type I error?",
+        "answer_key": "False positive—rejecting a true null hypothesis.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What causes Type I errors?",
+        "answer_key": "Random chance, noise, or inflated alpha from multiple tests.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is a Type II error?",
+        "answer_key": "False negative—failing to reject a false null hypothesis.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What are common causes of Type II errors?",
+        "answer_key": "Low power, small sample size, high variance.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is alpha inflation?",
+        "answer_key": "Increase in false positive rate due to multiple testing.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "Why do multiple predictors or subgroups cause alpha inflation?",
+        "answer_key": "Each additional test increases chances of false discoveries.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "How can we make alpha more stringent?",
+        "answer_key": "Use a smaller threshold, e.g., 0.01 instead of 0.05.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is the Bonferroni correction?",
+        "answer_key": "Adjusting alpha by dividing it by number of tests.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is the main drawback of the Bonferroni adjustment?",
+        "answer_key": "Very conservative, increases Type II errors.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is False Discovery Rate (FDR)?",
+        "answer_key": "Expected proportion of false positives among rejected hypotheses.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "Which procedure is commonly used to control FDR?",
+        "answer_key": "Benjamini–Hochberg method.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "Why use FDR instead of Bonferroni?",
+        "answer_key": "Provides better balance between false positives and statistical power.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "Why are resampling approaches useful in hypothesis testing?",
+        "answer_key": "Do not require strict distributional assumptions.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is the main assumption behind permutation tests?",
+        "answer_key": "Labels are exchangeable under the null hypothesis.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "Why is effect size important in addition to p-value?",
+        "answer_key": "Shows practical significance of an effect.",
+        "category": "Hypothesis Testing 1"
+    },
+    {
+        "question": "What is the purpose of a t-test?",
+        "answer_key": "To compare means between one or two groups.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "Why do t-tests follow the Student’s t-distribution?",
+        "answer_key": "Because population variance is unknown and estimated from sample.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What does standardization mean in context of t-tests?",
+        "answer_key": "Converting difference to a t-statistic using standard error.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is a one-sample t-test used for?",
+        "answer_key": "Testing sample mean against a known population mean.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is a two-sample t-test used for?",
+        "answer_key": "Comparing means of two independent groups.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is Welch’s t-test?",
+        "answer_key": "A t-test variant for unequal variances.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is a paired t-test used for?",
+        "answer_key": "Comparing means of dependent or matched samples.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is ANOVA used for?",
+        "answer_key": "Comparing means across more than two groups.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is the F-statistic in ANOVA?",
+        "answer_key": "Ratio of between-group variance to within-group variance.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What distribution does the ANOVA F-statistic follow?",
+        "answer_key": "F-distribution under the null hypothesis.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is the between-group variance in ANOVA?",
+        "answer_key": "Variability due to differences in group means.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is the within-group variance in ANOVA?",
+        "answer_key": "Variability due to randomness/residual error.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is the total variance decomposition in ANOVA?",
+        "answer_key": "Total = between-group effect + residual effect.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What are degrees of freedom in ANOVA?",
+        "answer_key": "Between: k-1, Within: N-k.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is two-way ANOVA used for?",
+        "answer_key": "Testing two factors and their interaction effects.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is a resampling-based ANOVA?",
+        "answer_key": "ANOVA using permutation of group labels.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is the purpose of a chi-square test?",
+        "answer_key": "Testing relationships between categorical variables.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is the chi-square statistic formula?",
+        "answer_key": "Sum of squared (observed-expected)/expected.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "How are expected counts computed in chi-square tests?",
+        "answer_key": "From row and column marginals under independence.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What distribution does the chi-square statistic follow?",
+        "answer_key": "Chi-square distribution with appropriate degrees of freedom.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What are degrees of freedom in chi-square independence test?",
+        "answer_key": "df = (rows-1)(columns-1).",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "When is chi-square permutation test used?",
+        "answer_key": "When expected counts are small or assumptions fail.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is a major shortfall of hypothesis testing?",
+        "answer_key": "Focuses on significance rather than effect size.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is another limitation of hypothesis testing?",
+        "answer_key": "Highly sensitive to sample size.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is the multi-armed bandit problem?",
+        "answer_key": "Balancing exploration and exploitation across choices.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is the epsilon-greedy algorithm?",
+        "answer_key": "Random exploration with probability ε, otherwise best action.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "Why is epsilon-greedy used in online experiments?",
+        "answer_key": "Improves learning while still exploiting good variants.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is statistical power?",
+        "answer_key": "Probability of rejecting false null (1 - beta).",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "How does sample size affect power?",
+        "answer_key": "Larger samples increase power.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "How does effect size influence power?",
+        "answer_key": "Larger effects are easier to detect.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What is the role of alpha in power analysis?",
+        "answer_key": "Lower alpha reduces power by making rejection harder.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "How do you compute required sample size in hypothesis testing?",
+        "answer_key": "Using effect size, alpha, and desired power.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "How do you compute power given sample size?",
+        "answer_key": "Using effect size, alpha, and distribution of test statistic.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "How do you determine minimum detectable effect?",
+        "answer_key": "Solve effect size from power, alpha, and sample size.",
+        "category": "Hypothesis Testing 2"
+    },
+    {
+        "question": "What happens to power when alpha is made more stringent?",
+        "answer_key": "Power decreases for the same sample size.",
+        "category": "Hypothesis Testing 2"
+    }
+]
