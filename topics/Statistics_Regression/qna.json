@@ -1,0 +1,272 @@
+[
+    {
+        "question": "What is the goal of linear regression?",
+        "answer_key": "To model the linear relationship between predictors and a response.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is Ordinary Least Squares (OLS)?",
+        "answer_key": "Method that estimates coefficients by minimizing RSS.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is the closed-form solution for OLS parameters?",
+        "answer_key": "(XᵀX)⁻¹Xᵀy.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is RSS in regression?",
+        "answer_key": "Sum of squared residuals between observed and predicted values.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is RMSE used for?",
+        "answer_key": "Measures average prediction error in original units.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is Residual Standard Error (RSE)?",
+        "answer_key": "Estimates the standard deviation of residuals.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What does R² represent?",
+        "answer_key": "Fraction of response variance explained by the model.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is the drawback of R²?",
+        "answer_key": "Always increases with more predictors.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is Adjusted R²?",
+        "answer_key": "R² penalized for extra predictors based on sample size.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What does the t-statistic of a coefficient measure?",
+        "answer_key": "Evidence against the null that coefficient equals zero.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is a p-value in regression?",
+        "answer_key": "Probability of observing such a t-statistic under the null.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "How is coefficient significance assessed?",
+        "answer_key": "By p-values derived from t-tests.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is AIC used for?",
+        "answer_key": "Model selection balancing fit and complexity.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is BIC used for?",
+        "answer_key": "Model selection with stronger penalty for more parameters.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "Why use AICc instead of AIC?",
+        "answer_key": "Corrects AIC for small sample sizes.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is Mallows’ Cp?",
+        "answer_key": "Metric comparing a subset model to full model using RSS.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is forward selection?",
+        "answer_key": "Add predictors sequentially based on improvement.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is backward selection?",
+        "answer_key": "Remove predictors sequentially based on insignificance.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is L1 regularization?",
+        "answer_key": "Penalty on absolute coefficients that induces sparsity.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is L2 regularization?",
+        "answer_key": "Penalty on squared coefficients that stabilizes estimates.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What are confidence intervals in regression?",
+        "answer_key": "Ranges estimating uncertainty around mean predictions.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What are prediction intervals?",
+        "answer_key": "Ranges predicting an individual future observation.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "How can resampling be used to estimate intervals?",
+        "answer_key": "Bootstrap resamples generate empirical CI/PI distributions.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What are factor variables?",
+        "answer_key": "Categorical variables represented as discrete levels.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is one-hot encoding?",
+        "answer_key": "Converting categorical levels into binary dummy variables.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "Why avoid all dummy variables in encoding?",
+        "answer_key": "To prevent multicollinearity (dummy variable trap).",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "How do models handle factor variables with many levels?",
+        "answer_key": "Using k−1 dummy variables relative to a reference level.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is an ordered factor variable?",
+        "answer_key": "Categorical variable with inherent ranking among levels.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "How is an ordered factor typically encoded?",
+        "answer_key": "Integer or monotonic encoding respecting the level order.",
+        "category": "Linear Regression"
+    },
+    {
+        "question": "What is multicollinearity in regression?",
+        "answer_key": "High correlation among predictors causing unstable coefficients.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "Why is multicollinearity problematic?",
+        "answer_key": "Inflates standard errors and weakens significance tests.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "How do you detect multicollinearity?",
+        "answer_key": "Using VIF, correlation matrix, or condition number.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What is a confounding variable?",
+        "answer_key": "A variable affecting both predictor and outcome, biasing estimates.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "How do confounders affect regression interpretation?",
+        "answer_key": "Create spurious or misleading relationships.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What is a main effect in regression?",
+        "answer_key": "Individual effect of a predictor holding others constant.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What is an interaction effect?",
+        "answer_key": "When effect of one predictor depends on another.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "How is an interaction term represented in a model?",
+        "answer_key": "As the product of two predictors (X1 * X2).",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What is an outlier in regression?",
+        "answer_key": "Observation far from the fitted trend or pattern.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What are standardized residuals used for?",
+        "answer_key": "Detecting outliers by scaling residuals by their variability.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "How are standardized residuals used in anomaly detection?",
+        "answer_key": "High absolute values indicate abnormal or unexpected cases.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What is an influential value?",
+        "answer_key": "Point that strongly affects model parameters or predictions.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "Are influential points always outliers?",
+        "answer_key": "No, high leverage points can be influential without large residuals.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "How do you detect influential observations?",
+        "answer_key": "Using Cook’s distance, leverage (h_i), or DFBETAS.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What is heteroscedasticity?",
+        "answer_key": "Non-constant variance of residuals across levels of predictors.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "Why is heteroscedasticity problematic for OLS?",
+        "answer_key": "Invalidates standard errors and hypothesis tests.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "How do you detect heteroscedasticity?",
+        "answer_key": "Residuals vs fitted plot, Breusch–Pagan test.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What is a partial residual plot used for?",
+        "answer_key": "Examining predictor–response relationship after adjusting for others.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What does a curved partial residual plot indicate?",
+        "answer_key": "Potential nonlinearity requiring transformation.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What is polynomial regression?",
+        "answer_key": "Regression using polynomial terms to model nonlinear relationships.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "Why use polynomial regression?",
+        "answer_key": "Adds flexibility while remaining linear in parameters.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What are splines in regression?",
+        "answer_key": "Piecewise polynomials joined smoothly at knots.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What is a knot in spline regression?",
+        "answer_key": "Point where polynomial segments connect.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "Why prefer splines over high-degree polynomials?",
+        "answer_key": "More stable and flexible with less oscillation.",
+        "category": "Regression Diagnostics"
+    },
+    {
+        "question": "What are natural splines?",
+        "answer_key": "Splines constrained to be linear beyond boundary knots.",
+        "category": "Regression Diagnostics"
+    }
+]

@@ -50,4 +50,5 @@ def merge_qna_jsons(folder_path, output_path="merged_qna.json"):
 #merge_qna_jsons("subtopic_qnas/Clustering_and_Other_techniques", "topics/Clustering_and_Other_techniques/qna.json")
 #merge_qna_jsons("subtopic_qnas/Decision_Trees_Ensemble_Learning", "topics/Decision_Trees_Ensemble_Learning/qna.json")
 #merge_qna_jsons("subtopic_qnas/Statistics_1", "topics/Statistics_1/qna.json")
-merge_qna_jsons("subtopic_qnas/Hypothesis_Testing", "topics/Hypothesis_Testing/qna.json")
+#merge_qna_jsons("subtopic_qnas/Hypothesis_Testing", "topics/Hypothesis_Testing/qna.json")
+merge_qna_jsons("subtopic_qnas/Statistics_Regression", "topics/Statistics_Regression/qna.json")
